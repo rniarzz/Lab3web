@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3</title>
+    <style>
+        /* CSS untuk styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        select[multiple] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        select[multiple] {
+            height: auto;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Contoh</h2>
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pilihan">Jurusan:</label>
+            <select id="pilihan" name="pilihan">
+                <option value="opsi1">Teknik Informatika</option>
+                <option value="opsi2">Manajemen</option>
+                <option value="opsi3">Hukum</option>
+            </select>
+
+            <label for="multipleSelect">Pilih hobby anda:</label>
+            <select id="multipleSelect" name="multipleSelect[]" multiple>
+                <option value="opsi1">Bola</option>
+                <option value="opsi2">Berenang</option>
+                <option value="opsi3">Membaca</option>
+                <option value="opsi4">Melukis</option>
+                <option value="opsi5">Mendengarkan musik</option>
+                <option value="opsi6">Shooping</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
