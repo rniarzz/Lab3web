@@ -369,3 +369,4 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 
 ![Screenshot (303)](https://github.com/rniarzz/Lab3web/assets/115542704/dc376689-73a3-4276-bbe5-aefd7c4191d9)
 
+<h1 <p align="center"><b>======== Sekian Terima Kasih ==========</b></p></h1>
