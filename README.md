@@ -22,9 +22,9 @@
 
 ## Membuat dokumen HTML
 
-Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.
+Persiapan membuat dokumen HTML dengan nama file **lab3_list.html** seperti berikut.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en"
 <head>
@@ -41,11 +41,13 @@ Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.
 
 ```
 
+---
+
 ## Membuat Ordered List
 
-Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
+Kemudian tambahkan kode untuk membuat *Ordered List* seperti berikut.
 
-```
+```html
 <section id="order-list">
     <h2>Ordered List</h2>
     <ol>
@@ -59,12 +61,14 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
 
 ![Screenshot (295)](https://github.com/rniarzz/Lab3web/assets/115542704/5a88f1fc-f8ba-4006-ad07-49e56442071b)
 
+---
+
 ## Membuat Unorderd List
 
-Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada
+Kemudian tambakan kode untuk membuat *Unordered List*, setelah deklarasi ordered list pada
 section unordered-list, seperti berikut.
 
-```
+```html
 <section id="unorder-list">
     <h2>Unordered List</h2>
     <ul type="square">
@@ -77,10 +81,12 @@ section unordered-list, seperti berikut.
 
 ![Screenshot (296)](https://github.com/rniarzz/Lab3web/assets/115542704/1f70d1b9-7558-431e-9092-815f8737eb7e)
 
+---
+
 ## Membuat Description List
 Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
 
-```
+```html
 <section id="unorder-list">
     <h2>Description List</h2>
     <dl>
@@ -98,10 +104,12 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
 
 ![Screenshot (297)](https://github.com/rniarzz/Lab3web/assets/115542704/4a263429-65fd-40ca-ad79-c6dc0b791ffb)
 
-## Membuat dokumen HTML
-Buat file baru dengan nama lab3_tabel.html seperti berikut.
+---
 
-```
+## Membuat Tabel
+Buat file baru dengan nama **lab3_tabel.html** seperti berikut.
+
+```html
 <!DOCTYPE html>
 <html lang="en"
 <head>
@@ -116,9 +124,10 @@ Buat file baru dengan nama lab3_tabel.html seperti berikut.
 </body>
 </html>
 ```
+
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
 
-```
+```html
 <table border="1" cellpadding="4" cellspacing="0">
     <thead>
         <tr>
@@ -147,14 +156,20 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
 </table>
 ```
 
+## Mengatur Margin dan Padding
+
+Untuk mengatur margin dan padding pada cel data, tambahkan atribut `cellpadding` dan `cellspacing` pada tag table.
+
 ![Screenshot (298)](https://github.com/rniarzz/Lab3web/assets/115542704/f357e4f9-121c-4f5f-9a9e-3f2443aa7168)
 
+---
+
 ## Menggabungkan Sel Data
-Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk
-menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara
+Untuk menggabungkan sel data, gunakan atribut `rowspan` dan `colspan`. Atribut `rowspan` untuk
+menggabungkan baris (secara vertikal) dan `colspan` untuk menggabungkan kolom (secara
 horizontal).
 
-```
+```html
 <body>
     <header>
         <h1>Menggabungkan Sel</h1>
@@ -189,10 +204,12 @@ horizontal).
 
 ![Screenshot (299)](https://github.com/rniarzz/Lab3web/assets/115542704/5c682785-d0f8-4b2c-adfb-2d60d17ed824)
 
-## Membuat Form
-Buat file baru dengan nama lab3_form.html seperti berikut.
+---
 
-```
+## Membuat Form
+Buat file baru dengan nama **lab3_form.html** seperti berikut.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -207,6 +224,7 @@ Buat file baru dengan nama lab3_form.html seperti berikut.
 </body>
 </html>
 ```
+
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
 
 ```
@@ -235,10 +253,12 @@ for="jk_p">Perempuan</label>
 
 ![Screenshot (300)](https://github.com/rniarzz/Lab3web/assets/115542704/baba5366-11d5-46db-bed1-66759bd774f3)
 
+---
+
 ## Menabahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 
-```
+```html
 <style>
     form p > label {
         display: inline-block;
@@ -259,10 +279,12 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 
 ![Screenshot (302)](https://github.com/rniarzz/Lab3web/assets/115542704/2c62c116-30ae-4901-90c1-dbc0afd74cbd)
 
-## Pertanyaan dan Tugas
-1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+---
 
-```
+## Pertanyaan dan Tugas
+1. Buatlah form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan *multiple selection*.
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -340,6 +362,8 @@ Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
             <button type="submit">Submit</button>
         </form>
 ```
+
+---
 
 ## Hasil Run
 
