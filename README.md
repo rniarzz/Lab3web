@@ -227,7 +227,7 @@ Buat file baru dengan nama **lab3_form.html** seperti berikut.
 
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
 
-```
+```html
 <form action="proses.php" method="post">
     <fieldset>
         <legend>Data Pelanggan</legend>
@@ -255,7 +255,7 @@ for="jk_p">Perempuan</label>
 
 ---
 
-## Menabahkan Style pada Form
+## Menambahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
 
 ```html
